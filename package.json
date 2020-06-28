@@ -1,0 +1,25 @@
+{
+  "name": "flickzee-search-backend",
+  "version": "1.0.0",
+  "description": "Search engine for FlickZee-intern",
+  "main": "server.js",
+  "dependencies": {
+    "@angular/http": "^7.2.16",
+    "async": "^3.2.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "fast-levenshtein": "^2.0.6",
+    "helmet": "^3.23.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.1",
+    "soundex-code": "^1.0.5",
+    "stopword": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node -v",
+    "start": "node server.js"
+  },
+  "author": "sriram",
+  "license": "ISC"
+}
